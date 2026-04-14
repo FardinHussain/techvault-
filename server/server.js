@@ -48,14 +48,12 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-// ── Fallback JSON creation ────────────────────────────────────
+// ── Fallback JSON ─────────────────────────────────────────────
 const ensureFallbackData = async () => {
   const dataDir = path.join(__dirname, 'data');
   const jsonPath = path.join(dataDir, 'products.json');
 
   if (fs.existsSync(jsonPath)) return;
-
-  console.log('⬇️ Fetching fallback products...');
 
   try {
     const res = await fetch('https://dummyjson.com/products?limit=100');
@@ -103,8 +101,15 @@ const autoSeed = async () => {
   }
 };
 
-// ── START SERVER (FIXED) ──────────────────────────────────────
-const PORT = process.env.PORT || 5000;
+// ── START SERVER (FINAL FIX) ──────────────────────────────────
+const PORT = process.env.PORT;
+
+console.log("ENV PORT VALUE:", process.env.PORT);
+
+if (!PORT) {
+  console.error("❌ PORT is undefined");
+  process.exit(1);
+}
 
 (async () => {
   try {
@@ -112,17 +117,16 @@ const PORT = process.env.PORT || 5000;
 
     if (dbOk) {
       console.log('⏳ Waiting for DB ready...');
-      await new Promise(res => setTimeout(res, 1000)); // 🔥 important fix
-
+      await new Promise(res => setTimeout(res, 1000));
       await autoSeed();
     } else {
       await ensureFallbackData();
     }
 
-    app.listen(PORT, () => {
-      console.log(`\n🚀 TechVault running → http://localhost:${PORT}`);
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`🚀 Server running on port ${PORT}`);
       console.log(`🔑 Admin → ${process.env.ADMIN_EMAIL}`);
-      console.log(`🗄️ DB → ${dbOk ? 'MongoDB Connected' : 'Fallback Mode'}\n`);
+      console.log(`🗄️ DB → ${dbOk ? 'MongoDB Connected' : 'Fallback Mode'}`);
     });
 
   } catch (error) {
