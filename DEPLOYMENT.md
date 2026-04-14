@@ -18,7 +18,7 @@
    JWT_SECRET=techvault_super_secret_jwt_key_2025_xK9mP2qR
    ADMIN_EMAIL=admin@techvault.com
    ADMIN_PASSWORD=Admin@123456
-   PORT=8080
+   
    ```
 5. Railway will auto-detect `package.json` and run `npm start`
 6. Wait for the build to finish. Copy your live Railway URL, e.g.:
