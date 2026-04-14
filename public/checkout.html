@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout — TechVault</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<div id="toast-container"></div>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="navbar-logo" href="index.html">Tech<span>Vault</span></a>
+    <div class="navbar-links">
+      <a class="nav-link" href="shop.html">Shop</a>
+      <a class="nav-cart" href="cart.html">🛒 Cart <span class="cart-badge hidden">0</span></a>
+      <div id="nav-user-menu" class="hidden" style="display:flex;align-items:center;gap:6px">
+        <span id="nav-user-name" style="font-size:14px;color:var(--text-secondary)"></span>
+        <button class="btn btn-ghost btn-sm" id="nav-logout-btn">Logout</button>
+      </div>
+      <a class="nav-link" href="login.html" id="nav-login-link">Login</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="shop.html">Shop</a>
+  <a href="cart.html">Cart 🛒</a>
+</div>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Checkout</h1>
+    <p>Almost there — fill in your details to complete your order</p>
+  </div>
+</div>
+
+<div class="container" style="padding-bottom:80px">
+  <div class="checkout-layout">
+
+    <!-- Form -->
+    <div class="checkout-form-box">
+      <form id="checkout-form">
+        <h2>Shipping Address</h2>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">Full Name *</label>
+            <input type="text" name="fullname" class="form-input" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">Country *</label>
+            <input type="text" name="country" class="form-input" placeholder="United States" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Street Address *</label>
+          <input type="text" name="address" class="form-input" placeholder="123 Main Street, Apt 4B" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">City *</label>
+            <input type="text" name="city" class="form-input" placeholder="New York" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">State / Province *</label>
+            <input type="text" name="state" class="form-input" placeholder="NY" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label">ZIP / Pincode *</label>
+            <input type="text" name="pincode" class="form-input" placeholder="10001" required>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <h2>Payment Method</h2>
+        <div class="payment-methods">
+          <label class="payment-option selected">
+            <input type="radio" name="payment" value="Cash on Delivery" checked>
+            <div>
+              <div class="payment-option-label">💵 Cash on Delivery</div>
+              <div class="payment-option-sub">Pay when your order arrives</div>
+            </div>
+          </label>
+          <label class="payment-option" style="opacity:.45;pointer-events:none">
+            <input type="radio" name="payment" value="Credit Card" disabled>
+            <div>
+              <div class="payment-option-label">💳 Credit / Debit Card</div>
+              <div class="payment-option-sub">Coming soon</div>
+            </div>
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full btn-lg" id="place-order-btn">
+          Place Order →
+        </button>
+        <p style="font-size:12px;color:var(--text-muted);text-align:center;margin-top:12px">
+          🔒 Your information is encrypted and secure
+        </p>
+      </form>
+    </div>
+
+    <!-- Summary -->
+    <div>
+      <div class="order-summary-box" id="checkout-summary"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="padding-top:32px;border-top:1px solid var(--border)">
+      <span>© 2025 TechVault.</span>
+      <a href="cart.html" style="color:var(--accent)">← Back to Cart</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Shop — TechVault</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<div id="toast-container"></div>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="navbar-logo" href="index.html">Tech<span>Vault</span></a>
+    <div class="navbar-search">
+      <span class="navbar-search-icon">🔍</span>
+      <input type="text" placeholder="Search products…" id="nav-search-inp">
+    </div>
+    <div class="navbar-links">
+      <a class="nav-link active" href="shop.html">Shop</a>
+      <a class="nav-link" href="login.html" id="nav-login-link">Login</a>
+      <div id="nav-user-menu" class="hidden" style="display:flex;align-items:center;gap:6px">
+        <span id="nav-user-name" style="font-size:14px;color:var(--text-secondary)"></span>
+        <button class="btn btn-ghost btn-sm" id="nav-logout-btn">Logout</button>
+      </div>
+      <a class="nav-cart" href="cart.html">🛒 Cart <span class="cart-badge hidden">0</span></a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="orders.html">Orders</a>
+  <a href="cart.html">Cart 🛒</a>
+  <a href="login.html">Login</a>
+</div>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Shop All Products</h1>
+    <p>Discover 100+ premium tech products and more</p>
+  </div>
+</div>
+
+<div class="container" style="padding-bottom:80px">
+  <div class="shop-layout">
+
+    <!-- Sidebar -->
+    <aside class="shop-sidebar">
+      <div class="filter-section">
+        <div class="filter-title">Categories</div>
+        <div class="filter-category-list" id="category-list">
+          <div class="skeleton skeleton-line" style="margin-bottom:8px"></div>
+          <div class="skeleton skeleton-line short" style="margin-bottom:8px"></div>
+          <div class="skeleton skeleton-line" style="margin-bottom:8px"></div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="filter-section">
+        <div class="filter-title">Max Price</div>
+        <div class="price-range-labels">
+          <span>$0</span>
+          <span id="price-label">$1500</span>
+        </div>
+        <input type="range" id="price-range" min="0" max="1500" value="1500" step="10">
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="filter-section">
+        <div class="filter-title">Min Rating</div>
+        <div class="rating-filter">
+          <label class="rating-option">
+            <input type="radio" name="rating" value="0" checked> <span>All ratings</span>
+          </label>
+          <label class="rating-option">
+            <input type="radio" name="rating" value="4"> <span class="stars stars-sm">★★★★☆</span>&nbsp;4+
+          </label>
+          <label class="rating-option">
+            <input type="radio" name="rating" value="3"> <span class="stars stars-sm">★★★☆☆</span>&nbsp;3+
+          </label>
+          <label class="rating-option">
+            <input type="radio" name="rating" value="2"> <span class="stars stars-sm">★★☆☆☆</span>&nbsp;2+
+          </label>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <button class="btn btn-ghost btn-sm btn-full" id="clear-filters">✕ Clear Filters</button>
+    </aside>
+
+    <!-- Main -->
+    <div>
+      <div class="shop-toolbar">
+        <div class="shop-search">
+          <span class="shop-search-icon">🔍</span>
+          <input type="text" placeholder="Search products and brands…" id="shop-search">
+        </div>
+        <div class="shop-sort">
+          <select class="form-select" id="shop-sort">
+            <option value="">Sort: Newest</option>
+            <option value="price_asc">Price: Low → High</option>
+            <option value="price_desc">Price: High → Low</option>
+            <option value="rating">Top Rated</option>
+          </select>
+        </div>
+      </div>
+      <div style="margin-bottom:16px">
+        <span id="shop-count" style="font-size:14px;color:var(--text-secondary)">Loading…</span>
+      </div>
+      <div class="products-grid" id="products-grid"></div>
+      <div id="pagination" class="pagination"></div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="padding-top:32px;border-top:1px solid var(--border)">
+      <span>© 2025 TechVault. All rights reserved.</span>
+      <a href="index.html" style="color:var(--accent)">← Back to Home</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/shop.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // Sync navbar search with shop search
+  document.getElementById('nav-search-inp')?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const q = e.target.value.trim();
+      const shopInp = document.getElementById('shop-search');
+      if (shopInp && q) { shopInp.value = q; shopInp.dispatchEvent(new Event('input')); }
+    }
+  });
+
+  // Pre-fill search from URL
+  const urlSearch = new URLSearchParams(location.search).get('search');
+  if (urlSearch) {
+    const shopInp = document.getElementById('shop-search');
+    if (shopInp) shopInp.value = urlSearch;
+  }
+});
+</script>
+</body>
+</html>

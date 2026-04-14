@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TechVault — The Future of Tech Shopping</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<div id="toast-container"></div>
+
+<!-- ── Navbar ── -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="navbar-logo" href="index.html">Tech<span>Vault</span></a>
+    <div class="navbar-search">
+      <span class="navbar-search-icon">🔍</span>
+      <input type="text" placeholder="Search products, brands…" id="nav-search-inp">
+    </div>
+    <div class="navbar-links">
+      <a class="nav-link" href="shop.html">Shop</a>
+      <a class="nav-link hidden" href="orders.html" id="nav-orders-link">Orders</a>
+      <a class="nav-link" href="login.html" id="nav-login-link">Login</a>
+      <div id="nav-user-menu" class="hidden" style="display:flex;align-items:center;gap:6px">
+        <span id="nav-user-name" style="font-size:14px;color:var(--text-secondary)"></span>
+        <button class="btn btn-ghost btn-sm" id="nav-logout-btn">Logout</button>
+      </div>
+      <a class="nav-cart" href="cart.html">
+        🛒 Cart <span class="cart-badge hidden">0</span>
+      </a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="shop.html">Shop</a>
+  <a href="orders.html">Orders</a>
+  <a href="cart.html">Cart 🛒</a>
+  <a href="login.html">Login</a>
+</div>
+
+<!-- ── Hero ── -->
+<section class="hero" id="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">⚡ New arrivals every week</div>
+    <h1 class="hero-title">The Future of<br><span class="accent">Tech Shopping</span></h1>
+    <p class="hero-sub">Discover the latest smartphones, laptops, and gadgets at unbeatable prices. Fast delivery, easy returns.</p>
+    <div class="hero-ctas">
+      <a href="shop.html" class="btn btn-primary btn-lg pulse">Shop Now →</a>
+      <a href="shop.html?sort=discount" class="btn btn-secondary btn-lg">View Deals</a>
+    </div>
+    <div class="hero-stats">
+      <div>
+        <div class="hero-stat-num">100+</div>
+        <div class="hero-stat-label">Products</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">50k+</div>
+        <div class="hero-stat-label">Happy Customers</div>
+      </div>
+      <div>
+        <div class="hero-stat-num">4.8★</div>
+        <div class="hero-stat-label">Avg. Rating</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Featured Categories ── -->
+<section class="section" style="padding-top:64px">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Browse by Category</div>
+      <h2 class="section-title">Shop by Category</h2>
+      <p class="section-subtitle">Explore our curated selection across top categories</p>
+    </div>
+    <div class="categories-grid" id="categories-grid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+</section>
+
+<!-- ── Featured Products ── -->
+<section class="section" style="padding-top:40px">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Handpicked For You</div>
+      <h2 class="section-title">Featured Products</h2>
+      <p class="section-subtitle">Top-rated picks across our most popular categories</p>
+    </div>
+    <div class="products-grid" id="featured-grid"></div>
+    <div style="text-align:center;margin-top:40px">
+      <a href="shop.html" class="btn btn-secondary btn-lg">View All Products →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── Flash Sale ── -->
+<section class="flash-sale">
+  <div class="container">
+    <div class="flash-header">
+      <div class="flash-title-group">
+        <span class="flash-label">⚡ Flash Sale</span>
+        <span class="flash-title-text">Limited Time Deals</span>
+      </div>
+      <div class="countdown">
+        <div class="countdown-unit"><div class="countdown-num" id="cd-h">00</div><div class="countdown-label">Hours</div></div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-unit"><div class="countdown-num" id="cd-m">00</div><div class="countdown-label">Mins</div></div>
+        <span class="countdown-sep">:</span>
+        <div class="countdown-unit"><div class="countdown-num" id="cd-s">00</div><div class="countdown-label">Secs</div></div>
+      </div>
+    </div>
+    <div class="products-grid flash-grid" id="flash-grid"></div>
+  </div>
+</section>
+
+<!-- ── Why TechVault ── -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag">Why Choose Us</div>
+      <h2 class="section-title">The TechVault Promise</h2>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:24px">
+      <div class="card" style="padding:32px;text-align:center">
+        <div style="font-size:40px;margin-bottom:16px">🚀</div>
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px">Lightning Fast Delivery</h3>
+        <p style="font-size:14px;color:var(--text-secondary)">Get your orders within 2-3 business days with our express shipping.</p>
+      </div>
+      <div class="card" style="padding:32px;text-align:center">
+        <div style="font-size:40px;margin-bottom:16px">🔒</div>
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px">Secure Payments</h3>
+        <p style="font-size:14px;color:var(--text-secondary)">100% secure checkout with multiple payment options including COD.</p>
+      </div>
+      <div class="card" style="padding:32px;text-align:center">
+        <div style="font-size:40px;margin-bottom:16px">↩️</div>
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px">30-Day Returns</h3>
+        <p style="font-size:14px;color:var(--text-secondary)">Not happy? Return anything within 30 days, no questions asked.</p>
+      </div>
+      <div class="card" style="padding:32px;text-align:center">
+        <div style="font-size:40px;margin-bottom:16px">🎧</div>
+        <h3 style="font-size:17px;font-weight:700;margin-bottom:8px">24/7 Support</h3>
+        <p style="font-size:14px;color:var(--text-secondary)">Our customer support team is always ready to help you.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Newsletter ── -->
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-inner">
+      <h2>Stay in the Loop</h2>
+      <p>Get the latest deals, new arrivals, and tech news delivered to your inbox.</p>
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email address…" id="newsletter-email">
+        <button class="btn btn-primary" id="newsletter-btn">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── Footer ── -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">Tech<span>Vault</span></div>
+        <p>Your one-stop destination for the latest tech products. Quality guaranteed, prices unmatched.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">All Products</a></li>
+          <li><a href="shop.html?category=smartphones">Smartphones</a></li>
+          <li><a href="shop.html?category=laptops">Laptops</a></li>
+          <li><a href="shop.html?sort=price_asc">Best Deals</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Account</h4>
+        <ul>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="orders.html">My Orders</a></li>
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Return Policy</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 TechVault. All rights reserved.</span>
+      <span>Made with ❤️ for tech lovers</span>
+    </div>
+  </div>
+</footer>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/animations.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', async () => {
+  const user = getUser();
+  if (user) {
+    document.getElementById('nav-orders-link')?.classList.remove('hidden');
+  }
+
+  // ── Category icons map ────────────────────────────────────────
+  const catIcons = {
+    smartphones: '📱', laptops: '💻', fragrances: '🌸',
+    skincare: '🧴', groceries: '🛒', 'home-decoration': '🏠',
+    furniture: '🛋️', tops: '👕', 'womens-dresses': '👗',
+    'womens-shoes': '👠', 'mens-shoes': '👟', 'mens-watches': '⌚',
+    'womens-watches': '⌚', 'womens-bags': '👜', 'womens-jewellery': '💍',
+    sunglasses: '🕶️', automotive: '🚗', motorcycle: '🏍️',
+    lighting: '💡', default: '📦',
+  };
+
+  // ── Load categories ───────────────────────────────────────────
+  const catGrid = document.getElementById('categories-grid');
+  try {
+    const cats = await apiFetch('/products/categories');
+    const shown = cats.slice(0, 6);
+    shown.forEach(cat => {
+      const icon = catIcons[cat] || catIcons.default;
+      const el = document.createElement('div');
+      el.className = 'category-card';
+      el.innerHTML = `
+        <div class="category-icon">${icon}</div>
+        <div class="category-name">${cat.replace(/-/g,' ')}</div>
+        <div class="category-count">Browse →</div>`;
+      el.addEventListener('click', () => location.href = `shop.html?category=${encodeURIComponent(cat)}`);
+      catGrid.appendChild(el);
+    });
+  } catch {
+    catGrid.innerHTML = '<p style="color:var(--text-muted)">Could not load categories.</p>';
+  }
+
+  // ── Load featured products ────────────────────────────────────
+  const featGrid = document.getElementById('featured-grid');
+  featGrid.appendChild(buildSkeletons(8));
+  try {
+    const data = await apiFetch('/products?limit=8&sort=rating');
+    featGrid.innerHTML = '';
+    data.products.forEach(p => featGrid.appendChild(buildProductCard(p)));
+    if (typeof gsap !== 'undefined') {
+      gsap.fromTo(featGrid.querySelectorAll('.product-card'),
+        { opacity:0, y:20 },
+        { opacity:1, y:0, duration:0.45, stagger:0.07, ease:'power2.out',
+          scrollTrigger: { trigger: featGrid, start:'top 85%', once:true } });
+    } else {
+      featGrid.querySelectorAll('.product-card').forEach(c => { c.style.opacity='1'; c.style.transform='none'; });
+    }
+  } catch {
+    featGrid.innerHTML = '<p style="color:var(--text-muted);grid-column:1/-1;text-align:center;padding:40px">Could not load products.</p>';
+  }
+
+  // ── Load flash sale products ──────────────────────────────────
+  const flashGrid = document.getElementById('flash-grid');
+  flashGrid.appendChild(buildSkeletons(4));
+  try {
+    const data = await apiFetch('/products?limit=20&sort=rating');
+    const deals = (data.products || [])
+      .filter(p => (p.discountPercentage || 0) >= 10)
+      .sort((a,b) => b.discountPercentage - a.discountPercentage)
+      .slice(0, 4);
+    const flashItems = deals.length >= 4 ? deals : (data.products || []).slice(0, 4);
+    flashGrid.innerHTML = '';
+    flashItems.forEach(p => flashGrid.appendChild(buildProductCard(p)));
+    if (typeof gsap !== 'undefined') {
+      gsap.fromTo(flashGrid.querySelectorAll('.product-card'),
+        { opacity:0, y:20 },
+        { opacity:1, y:0, duration:0.45, stagger:0.07,
+          scrollTrigger: { trigger: flashGrid, start:'top 85%', once:true } });
+    } else {
+      flashGrid.querySelectorAll('.product-card').forEach(c => { c.style.opacity='1'; c.style.transform='none'; });
+    }
+  } catch {
+    flashGrid.innerHTML = '';
+  }
+
+  // ── Countdown timer ───────────────────────────────────────────
+  const endKey = 'tvSaleEnd';
+  let end = parseInt(localStorage.getItem(endKey) || '0');
+  if (!end || end < Date.now()) {
+    end = Date.now() + 24 * 60 * 60 * 1000;
+    localStorage.setItem(endKey, String(end));
+  }
+  const pad = n => String(n).padStart(2, '0');
+  const tick = () => {
+    const diff = Math.max(0, end - Date.now());
+    document.getElementById('cd-h').textContent = pad(Math.floor(diff / 3600000));
+    document.getElementById('cd-m').textContent = pad(Math.floor((diff % 3600000) / 60000));
+    document.getElementById('cd-s').textContent = pad(Math.floor((diff % 60000) / 1000));
+  };
+  tick();
+  setInterval(tick, 1000);
+
+  // ── Newsletter ────────────────────────────────────────────────
+  document.getElementById('newsletter-btn')?.addEventListener('click', () => {
+    const email = document.getElementById('newsletter-email').value.trim();
+    if (!email || !email.includes('@')) { showToast('Enter a valid email', 'error'); return; }
+    showToast('Thanks for subscribing! 🎉', 'success');
+    document.getElementById('newsletter-email').value = '';
+  });
+
+  // ── Nav search ────────────────────────────────────────────────
+  document.getElementById('nav-search-inp')?.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') {
+      const q = e.target.value.trim();
+      if (q) location.href = `shop.html?search=${encodeURIComponent(q)}`;
+    }
+  });
+});
+</script>
+</body>
+</html>

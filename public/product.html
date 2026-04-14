@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Product — TechVault</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+<div id="toast-container"></div>
+
+<nav class="navbar">
+  <div class="navbar-inner">
+    <a class="navbar-logo" href="index.html">Tech<span>Vault</span></a>
+    <div class="navbar-search">
+      <span class="navbar-search-icon">🔍</span>
+      <input type="text" placeholder="Search products…" id="nav-search-inp">
+    </div>
+    <div class="navbar-links">
+      <a class="nav-link" href="shop.html">Shop</a>
+      <a class="nav-link" href="login.html" id="nav-login-link">Login</a>
+      <div id="nav-user-menu" class="hidden" style="display:flex;align-items:center;gap:6px">
+        <span id="nav-user-name" style="font-size:14px;color:var(--text-secondary)"></span>
+        <button class="btn btn-ghost btn-sm" id="nav-logout-btn">Logout</button>
+      </div>
+      <a class="nav-cart" href="cart.html">🛒 Cart <span class="cart-badge hidden">0</span></a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="index.html">Home</a>
+  <a href="shop.html">Shop</a>
+  <a href="cart.html">Cart 🛒</a>
+  <a href="login.html">Login</a>
+</div>
+
+<!-- Breadcrumb -->
+<div style="background:var(--surface);border-bottom:1px solid var(--border);padding:12px 0">
+  <div class="container">
+    <div style="font-size:13px;color:var(--text-muted);display:flex;gap:8px;align-items:center">
+      <a href="index.html" style="color:var(--text-muted);transition:color .2s" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Home</a>
+      <span>›</span>
+      <a href="shop.html" style="color:var(--text-muted);transition:color .2s" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Shop</a>
+      <span>›</span>
+      <span id="breadcrumb-title" style="color:var(--text-secondary)">Product</span>
+    </div>
+  </div>
+</div>
+
+<!-- Product main -->
+<div class="container" style="padding:48px 20px">
+  <div id="product-main"></div>
+</div>
+
+<!-- Reviews -->
+<div class="container" style="padding-bottom:60px">
+  <div class="divider"></div>
+  <h2 style="font-size:22px;font-weight:800;margin-bottom:28px">Customer Reviews</h2>
+  <div id="reviews-container"></div>
+  <div id="write-review-box" class="write-review-box hidden">
+    <h3>Write a Review</h3>
+    <form id="review-form">
+      <div class="star-picker">
+        <span class="star-pick" data-val="1">★</span>
+        <span class="star-pick" data-val="2">★</span>
+        <span class="star-pick" data-val="3">★</span>
+        <span class="star-pick" data-val="4">★</span>
+        <span class="star-pick" data-val="5">★</span>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Your Review</label>
+        <textarea class="form-input" name="comment" rows="4" placeholder="Share your experience with this product…"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit Review</button>
+    </form>
+  </div>
+</div>
+
+<!-- Related products -->
+<section class="section" style="background:var(--surface);border-top:1px solid var(--border);padding:60px 0" id="related-section">
+  <div class="container">
+    <div class="section-header" style="margin-bottom:32px">
+      <h2 class="section-title" style="font-size:24px">You Might Also Like</h2>
+    </div>
+    <div class="products-grid" id="related-grid"></div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-bottom" style="padding-top:32px;border-top:1px solid var(--border)">
+      <span>© 2025 TechVault.</span>
+      <a href="shop.html" style="color:var(--accent)">← Back to Shop</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="js/config.js"></script>
+<script src="js/app.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/product.js"></script>
+<script>
+document.getElementById('nav-search-inp')?.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    const q = e.target.value.trim();
+    if (q) location.href = `shop.html?search=${encodeURIComponent(q)}`;
+  }
+});
+// Update breadcrumb when product loads
+const obs = new MutationObserver(() => {
+  const t = document.querySelector('.product-info-title');
+  if (t) { document.getElementById('breadcrumb-title').textContent = t.textContent.slice(0,40)+(t.textContent.length>40?'…':''); }
+});
+obs.observe(document.getElementById('product-main'), { childList: true, subtree: false });
+</script>
+</body>
+</html>

@@ -1,0 +1,1972 @@
+[
+  {
+    "title": "Essence Mascara Lash Princess",
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "brand": "Essence",
+    "category": "beauty",
+    "price": 9.99,
+    "discountPercentage": 10.48,
+    "rating": 2.56,
+    "stock": 99,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp",
+    "tags": [
+      "beauty",
+      "mascara"
+    ],
+    "numReviews": 39
+  },
+  {
+    "title": "Eyeshadow Palette with Mirror",
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    "brand": "Glamour Beauty",
+    "category": "beauty",
+    "price": 19.99,
+    "discountPercentage": 18.19,
+    "rating": 2.86,
+    "stock": 34,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/thumbnail.webp",
+    "tags": [
+      "beauty",
+      "eyeshadow"
+    ],
+    "numReviews": 16
+  },
+  {
+    "title": "Powder Canister",
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    "brand": "Velvet Touch",
+    "category": "beauty",
+    "price": 14.99,
+    "discountPercentage": 9.84,
+    "rating": 4.64,
+    "stock": 89,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp",
+    "tags": [
+      "beauty",
+      "face powder"
+    ],
+    "numReviews": 12
+  },
+  {
+    "title": "Red Lipstick",
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "brand": "Chic Cosmetics",
+    "category": "beauty",
+    "price": 12.99,
+    "discountPercentage": 12.16,
+    "rating": 4.36,
+    "stock": 91,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp",
+    "tags": [
+      "beauty",
+      "lipstick"
+    ],
+    "numReviews": 13
+  },
+  {
+    "title": "Red Nail Polish",
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "brand": "Nail Couture",
+    "category": "beauty",
+    "price": 8.99,
+    "discountPercentage": 11.44,
+    "rating": 4.32,
+    "stock": 79,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-nail-polish/thumbnail.webp",
+    "tags": [
+      "beauty",
+      "nail polish"
+    ],
+    "numReviews": 68
+  },
+  {
+    "title": "Calvin Klein CK One",
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+    "brand": "Calvin Klein",
+    "category": "fragrances",
+    "price": 49.99,
+    "discountPercentage": 1.89,
+    "rating": 4.37,
+    "stock": 29,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/1.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/2.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/calvin-klein-ck-one/thumbnail.webp",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "numReviews": 74
+  },
+  {
+    "title": "Chanel Coco Noir Eau De",
+    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+    "brand": "Chanel",
+    "category": "fragrances",
+    "price": 129.99,
+    "discountPercentage": 16.51,
+    "rating": 4.26,
+    "stock": 58,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/1.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/2.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "numReviews": 74
+  },
+  {
+    "title": "Dior J'adore",
+    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+    "brand": "Dior",
+    "category": "fragrances",
+    "price": 89.99,
+    "discountPercentage": 14.72,
+    "rating": 3.8,
+    "stock": 98,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/1.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/2.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dior-j'adore/thumbnail.webp",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "numReviews": 82
+  },
+  {
+    "title": "Dolce Shine Eau de",
+    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+    "brand": "Dolce & Gabbana",
+    "category": "fragrances",
+    "price": 69.99,
+    "discountPercentage": 0.62,
+    "rating": 3.96,
+    "stock": 4,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/1.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/2.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/dolce-shine-eau-de/thumbnail.webp",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "numReviews": 54
+  },
+  {
+    "title": "Gucci Bloom Eau de",
+    "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+    "brand": "Gucci",
+    "category": "fragrances",
+    "price": 79.99,
+    "discountPercentage": 14.39,
+    "rating": 2.74,
+    "stock": 91,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/1.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/2.webp",
+      "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/gucci-bloom-eau-de/thumbnail.webp",
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "numReviews": 6
+  },
+  {
+    "title": "Annibale Colombo Bed",
+    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+    "brand": "Annibale Colombo",
+    "category": "furniture",
+    "price": 1899.99,
+    "discountPercentage": 8.57,
+    "rating": 4.77,
+    "stock": 88,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/thumbnail.webp",
+    "tags": [
+      "furniture",
+      "beds"
+    ],
+    "numReviews": 84
+  },
+  {
+    "title": "Annibale Colombo Sofa",
+    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+    "brand": "Annibale Colombo",
+    "category": "furniture",
+    "price": 2499.99,
+    "discountPercentage": 14.4,
+    "rating": 3.92,
+    "stock": 60,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/thumbnail.webp",
+    "tags": [
+      "furniture",
+      "sofas"
+    ],
+    "numReviews": 18
+  },
+  {
+    "title": "Bedside Table African Cherry",
+    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+    "brand": "Furniture Co.",
+    "category": "furniture",
+    "price": 299.99,
+    "discountPercentage": 19.09,
+    "rating": 2.87,
+    "stock": 64,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/thumbnail.webp",
+    "tags": [
+      "furniture",
+      "bedside tables"
+    ],
+    "numReviews": 58
+  },
+  {
+    "title": "Knoll Saarinen Executive Conference Chair",
+    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+    "brand": "Knoll",
+    "category": "furniture",
+    "price": 499.99,
+    "discountPercentage": 2.01,
+    "rating": 4.88,
+    "stock": 26,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/thumbnail.webp",
+    "tags": [
+      "furniture",
+      "office chairs"
+    ],
+    "numReviews": 58
+  },
+  {
+    "title": "Wooden Bathroom Sink With Mirror",
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "brand": "Bath Trends",
+    "category": "furniture",
+    "price": 799.99,
+    "discountPercentage": 8.8,
+    "rating": 3.59,
+    "stock": 7,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/1.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/2.webp",
+      "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/furniture/wooden-bathroom-sink-with-mirror/thumbnail.webp",
+    "tags": [
+      "furniture",
+      "bathroom"
+    ],
+    "numReviews": 27
+  },
+  {
+    "title": "Apple",
+    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 1.99,
+    "discountPercentage": 12.62,
+    "rating": 4.19,
+    "stock": 8,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/apple/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp",
+    "tags": [
+      "fruits"
+    ],
+    "numReviews": 58
+  },
+  {
+    "title": "Beef Steak",
+    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 12.99,
+    "discountPercentage": 9.61,
+    "rating": 4.47,
+    "stock": 86,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/beef-steak/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/beef-steak/thumbnail.webp",
+    "tags": [
+      "meat"
+    ],
+    "numReviews": 43
+  },
+  {
+    "title": "Cat Food",
+    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 8.99,
+    "discountPercentage": 9.58,
+    "rating": 3.13,
+    "stock": 46,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/cat-food/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp",
+    "tags": [
+      "pet supplies",
+      "cat food"
+    ],
+    "numReviews": 51
+  },
+  {
+    "title": "Chicken Meat",
+    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 9.99,
+    "discountPercentage": 13.7,
+    "rating": 3.19,
+    "stock": 97,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/1.webp",
+      "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/2.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/chicken-meat/thumbnail.webp",
+    "tags": [
+      "meat"
+    ],
+    "numReviews": 56
+  },
+  {
+    "title": "Cooking Oil",
+    "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 4.99,
+    "discountPercentage": 9.33,
+    "rating": 4.8,
+    "stock": 10,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp",
+    "tags": [
+      "cooking essentials"
+    ],
+    "numReviews": 41
+  },
+  {
+    "title": "Cucumber",
+    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 1.49,
+    "discountPercentage": 0.16,
+    "rating": 4.07,
+    "stock": 84,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/cucumber/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp",
+    "tags": [
+      "vegetables"
+    ],
+    "numReviews": 7
+  },
+  {
+    "title": "Dog Food",
+    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 10.99,
+    "discountPercentage": 10.27,
+    "rating": 4.55,
+    "stock": 71,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/dog-food/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp",
+    "tags": [
+      "pet supplies",
+      "dog food"
+    ],
+    "numReviews": 49
+  },
+  {
+    "title": "Eggs",
+    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 2.99,
+    "discountPercentage": 11.05,
+    "rating": 2.53,
+    "stock": 9,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/eggs/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp",
+    "tags": [
+      "dairy"
+    ],
+    "numReviews": 78
+  },
+  {
+    "title": "Fish Steak",
+    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 14.99,
+    "discountPercentage": 4.23,
+    "rating": 3.78,
+    "stock": 74,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/fish-steak/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp",
+    "tags": [
+      "seafood"
+    ],
+    "numReviews": 8
+  },
+  {
+    "title": "Green Bell Pepper",
+    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 1.29,
+    "discountPercentage": 0.16,
+    "rating": 3.25,
+    "stock": 33,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp",
+    "tags": [
+      "vegetables"
+    ],
+    "numReviews": 7
+  },
+  {
+    "title": "Green Chili Pepper",
+    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 0.99,
+    "discountPercentage": 1,
+    "rating": 3.66,
+    "stock": 3,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp",
+    "tags": [
+      "vegetables"
+    ],
+    "numReviews": 19
+  },
+  {
+    "title": "Honey Jar",
+    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 6.99,
+    "discountPercentage": 14.4,
+    "rating": 3.97,
+    "stock": 34,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/honey-jar/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp",
+    "tags": [
+      "condiments"
+    ],
+    "numReviews": 19
+  },
+  {
+    "title": "Ice Cream",
+    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 5.49,
+    "discountPercentage": 8.69,
+    "rating": 3.39,
+    "stock": 27,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/1.webp",
+      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/2.webp",
+      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/3.webp",
+      "https://cdn.dummyjson.com/product-images/groceries/ice-cream/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp",
+    "tags": [
+      "desserts"
+    ],
+    "numReviews": 15
+  },
+  {
+    "title": "Juice",
+    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 3.99,
+    "discountPercentage": 12.06,
+    "rating": 3.94,
+    "stock": 50,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/juice/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp",
+    "tags": [
+      "beverages"
+    ],
+    "numReviews": 27
+  },
+  {
+    "title": "Kiwi",
+    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 2.49,
+    "discountPercentage": 15.22,
+    "rating": 4.93,
+    "stock": 99,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/kiwi/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp",
+    "tags": [
+      "fruits"
+    ],
+    "numReviews": 10
+  },
+  {
+    "title": "Lemon",
+    "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 0.79,
+    "discountPercentage": 9.7,
+    "rating": 3.53,
+    "stock": 31,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/lemon/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/lemon/thumbnail.webp",
+    "tags": [
+      "fruits"
+    ],
+    "numReviews": 60
+  },
+  {
+    "title": "Milk",
+    "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 3.49,
+    "discountPercentage": 13.74,
+    "rating": 2.61,
+    "stock": 27,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/milk/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/milk/thumbnail.webp",
+    "tags": [
+      "dairy"
+    ],
+    "numReviews": 69
+  },
+  {
+    "title": "Mulberry",
+    "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 4.99,
+    "discountPercentage": 12.87,
+    "rating": 4.95,
+    "stock": 99,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/mulberry/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/mulberry/thumbnail.webp",
+    "tags": [
+      "fruits"
+    ],
+    "numReviews": 63
+  },
+  {
+    "title": "Nescafe Coffee",
+    "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 7.99,
+    "discountPercentage": 1.59,
+    "rating": 4.82,
+    "stock": 57,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/nescafe-coffee/thumbnail.webp",
+    "tags": [
+      "beverages",
+      "coffee"
+    ],
+    "numReviews": 34
+  },
+  {
+    "title": "Potatoes",
+    "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 2.29,
+    "discountPercentage": 5.38,
+    "rating": 4.81,
+    "stock": 13,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/potatoes/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/potatoes/thumbnail.webp",
+    "tags": [
+      "vegetables"
+    ],
+    "numReviews": 46
+  },
+  {
+    "title": "Protein Powder",
+    "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 19.99,
+    "discountPercentage": 7.59,
+    "rating": 4.18,
+    "stock": 80,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/protein-powder/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/protein-powder/thumbnail.webp",
+    "tags": [
+      "health supplements"
+    ],
+    "numReviews": 50
+  },
+  {
+    "title": "Red Onions",
+    "description": "Flavorful and aromatic red onions, perfect for adding depth to your savory dishes.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 1.99,
+    "discountPercentage": 9.9,
+    "rating": 4.2,
+    "stock": 82,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/red-onions/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/red-onions/thumbnail.webp",
+    "tags": [
+      "vegetables"
+    ],
+    "numReviews": 30
+  },
+  {
+    "title": "Rice",
+    "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 5.99,
+    "discountPercentage": 9.29,
+    "rating": 3.18,
+    "stock": 59,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/rice/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/rice/thumbnail.webp",
+    "tags": [
+      "grains"
+    ],
+    "numReviews": 35
+  },
+  {
+    "title": "Soft Drinks",
+    "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 1.99,
+    "discountPercentage": 17.48,
+    "rating": 4.75,
+    "stock": 53,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/soft-drinks/thumbnail.webp",
+    "tags": [
+      "beverages"
+    ],
+    "numReviews": 37
+  },
+  {
+    "title": "Strawberry",
+    "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 3.99,
+    "discountPercentage": 1.12,
+    "rating": 3.08,
+    "stock": 46,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/strawberry/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/strawberry/thumbnail.webp",
+    "tags": [
+      "fruits"
+    ],
+    "numReviews": 22
+  },
+  {
+    "title": "Tissue Paper Box",
+    "description": "Convenient tissue paper box for everyday use, providing soft and absorbent tissues.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 2.49,
+    "discountPercentage": 13.28,
+    "rating": 2.69,
+    "stock": 86,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/1.webp",
+      "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/2.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/tissue-paper-box/thumbnail.webp",
+    "tags": [
+      "household essentials"
+    ],
+    "numReviews": 65
+  },
+  {
+    "title": "Water",
+    "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
+    "brand": "Generic",
+    "category": "groceries",
+    "price": 0.99,
+    "discountPercentage": 14.92,
+    "rating": 4.96,
+    "stock": 53,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/groceries/water/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/water/thumbnail.webp",
+    "tags": [
+      "beverages"
+    ],
+    "numReviews": 12
+  },
+  {
+    "title": "Decoration Swing",
+    "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+    "brand": "Generic",
+    "category": "home-decoration",
+    "price": 59.99,
+    "discountPercentage": 10.41,
+    "rating": 3.16,
+    "stock": 47,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/1.webp",
+      "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/2.webp",
+      "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/decoration-swing/thumbnail.webp",
+    "tags": [
+      "home decor",
+      "swing"
+    ],
+    "numReviews": 17
+  },
+  {
+    "title": "Family Tree Photo Frame",
+    "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
+    "brand": "Generic",
+    "category": "home-decoration",
+    "price": 29.99,
+    "discountPercentage": 14.87,
+    "rating": 4.53,
+    "stock": 77,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/family-tree-photo-frame/thumbnail.webp",
+    "tags": [
+      "home decor",
+      "photo frame"
+    ],
+    "numReviews": 53
+  },
+  {
+    "title": "House Showpiece Plant",
+    "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
+    "brand": "Generic",
+    "category": "home-decoration",
+    "price": 39.99,
+    "discountPercentage": 7.46,
+    "rating": 4.67,
+    "stock": 28,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/1.webp",
+      "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/2.webp",
+      "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/house-showpiece-plant/thumbnail.webp",
+    "tags": [
+      "home decor",
+      "artificial plants"
+    ],
+    "numReviews": 79
+  },
+  {
+    "title": "Plant Pot",
+    "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
+    "brand": "Generic",
+    "category": "home-decoration",
+    "price": 14.99,
+    "discountPercentage": 6.84,
+    "rating": 3.01,
+    "stock": 59,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/1.webp",
+      "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/2.webp",
+      "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/3.webp",
+      "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/plant-pot/thumbnail.webp",
+    "tags": [
+      "home decor",
+      "plant accessories"
+    ],
+    "numReviews": 49
+  },
+  {
+    "title": "Table Lamp",
+    "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+    "brand": "Generic",
+    "category": "home-decoration",
+    "price": 49.99,
+    "discountPercentage": 7.09,
+    "rating": 3.55,
+    "stock": 9,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/home-decoration/table-lamp/thumbnail.webp",
+    "tags": [
+      "home decor",
+      "lighting"
+    ],
+    "numReviews": 72
+  },
+  {
+    "title": "Bamboo Spatula",
+    "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 7.99,
+    "discountPercentage": 2.84,
+    "rating": 3.27,
+    "stock": 37,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "numReviews": 60
+  },
+  {
+    "title": "Black Aluminium Cup",
+    "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 5.99,
+    "discountPercentage": 15.65,
+    "rating": 4.46,
+    "stock": 75,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/2.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/thumbnail.webp",
+    "tags": [
+      "drinkware",
+      "cups"
+    ],
+    "numReviews": 84
+  },
+  {
+    "title": "Black Whisk",
+    "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 9.99,
+    "discountPercentage": 10.24,
+    "rating": 3.9,
+    "stock": 73,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "numReviews": 36
+  },
+  {
+    "title": "Boxed Blender",
+    "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 39.99,
+    "discountPercentage": 7.26,
+    "rating": 4.56,
+    "stock": 9,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/2.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/3.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/thumbnail.webp",
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
+    "numReviews": 51
+  },
+  {
+    "title": "Carbon Steel Wok",
+    "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 29.99,
+    "discountPercentage": 6.53,
+    "rating": 4.05,
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/carbon-steel-wok/thumbnail.webp",
+    "tags": [
+      "cookware",
+      "woks"
+    ],
+    "numReviews": 31
+  },
+  {
+    "title": "Chopping Board",
+    "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 12.99,
+    "discountPercentage": 8.03,
+    "rating": 3.7,
+    "stock": 14,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/chopping-board/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "cutting boards"
+    ],
+    "numReviews": 6
+  },
+  {
+    "title": "Citrus Squeezer Yellow",
+    "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 8.99,
+    "discountPercentage": 12.1,
+    "rating": 4.63,
+    "stock": 22,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/citrus-squeezer-yellow/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "juicers"
+    ],
+    "numReviews": 9
+  },
+  {
+    "title": "Egg Slicer",
+    "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 6.99,
+    "discountPercentage": 14.76,
+    "rating": 3.09,
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/egg-slicer/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "slicers"
+    ],
+    "numReviews": 81
+  },
+  {
+    "title": "Electric Stove",
+    "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 49.99,
+    "discountPercentage": 14.04,
+    "rating": 4.11,
+    "stock": 21,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/2.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/3.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/electric-stove/thumbnail.webp",
+    "tags": [
+      "kitchen appliances",
+      "cooktops"
+    ],
+    "numReviews": 58
+  },
+  {
+    "title": "Fine Mesh Strainer",
+    "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 9.99,
+    "discountPercentage": 3.5,
+    "rating": 3.04,
+    "stock": 85,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fine-mesh-strainer/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "numReviews": 83
+  },
+  {
+    "title": "Fork",
+    "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 3.99,
+    "discountPercentage": 8.07,
+    "rating": 3.11,
+    "stock": 7,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/fork/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "numReviews": 38
+  },
+  {
+    "title": "Glass",
+    "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 4.99,
+    "discountPercentage": 7.92,
+    "rating": 4.02,
+    "stock": 46,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/glass/thumbnail.webp",
+    "tags": [
+      "drinkware",
+      "glasses"
+    ],
+    "numReviews": 54
+  },
+  {
+    "title": "Grater Black",
+    "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 10.99,
+    "discountPercentage": 3.56,
+    "rating": 3.21,
+    "stock": 84,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/grater-black/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "graters"
+    ],
+    "numReviews": 32
+  },
+  {
+    "title": "Hand Blender",
+    "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 34.99,
+    "discountPercentage": 17.02,
+    "rating": 3.86,
+    "stock": 84,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/hand-blender/thumbnail.webp",
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
+    "numReviews": 71
+  },
+  {
+    "title": "Ice Cube Tray",
+    "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 5.99,
+    "discountPercentage": 0.63,
+    "rating": 4.71,
+    "stock": 13,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/ice-cube-tray/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "ice cube trays"
+    ],
+    "numReviews": 65
+  },
+  {
+    "title": "Kitchen Sieve",
+    "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 7.99,
+    "discountPercentage": 18.91,
+    "rating": 3.09,
+    "stock": 68,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/kitchen-sieve/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "numReviews": 42
+  },
+  {
+    "title": "Knife",
+    "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 14.99,
+    "discountPercentage": 18.86,
+    "rating": 3.26,
+    "stock": 7,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/knife/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "cutlery"
+    ],
+    "numReviews": 23
+  },
+  {
+    "title": "Lunch Box",
+    "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 12.99,
+    "discountPercentage": 10.34,
+    "rating": 4.93,
+    "stock": 94,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/lunch-box/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "storage"
+    ],
+    "numReviews": 68
+  },
+  {
+    "title": "Microwave Oven",
+    "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 89.99,
+    "discountPercentage": 12.13,
+    "rating": 4.82,
+    "stock": 59,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/2.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/3.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/microwave-oven/thumbnail.webp",
+    "tags": [
+      "kitchen appliances",
+      "microwaves"
+    ],
+    "numReviews": 30
+  },
+  {
+    "title": "Mug Tree Stand",
+    "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 15.99,
+    "discountPercentage": 9.25,
+    "rating": 2.64,
+    "stock": 88,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/1.webp",
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/2.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/mug-tree-stand/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "numReviews": 61
+  },
+  {
+    "title": "Pan",
+    "description": "The Pan is a versatile and essential cookware item for frying, sautéing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 24.99,
+    "discountPercentage": 3,
+    "rating": 2.79,
+    "stock": 90,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/pan/thumbnail.webp",
+    "tags": [
+      "cookware",
+      "pans"
+    ],
+    "numReviews": 30
+  },
+  {
+    "title": "Plate",
+    "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 3.99,
+    "discountPercentage": 7.31,
+    "rating": 3.65,
+    "stock": 66,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/plate/thumbnail.webp",
+    "tags": [
+      "dinnerware",
+      "plates"
+    ],
+    "numReviews": 24
+  },
+  {
+    "title": "Red Tongs",
+    "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 6.99,
+    "discountPercentage": 14.52,
+    "rating": 4.42,
+    "stock": 82,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/red-tongs/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "tongs"
+    ],
+    "numReviews": 17
+  },
+  {
+    "title": "Silver Pot With Glass Cap",
+    "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 39.99,
+    "discountPercentage": 5.7,
+    "rating": 3.22,
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/silver-pot-with-glass-cap/thumbnail.webp",
+    "tags": [
+      "cookware",
+      "pots"
+    ],
+    "numReviews": 7
+  },
+  {
+    "title": "Slotted Turner",
+    "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and sautéing.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 8.99,
+    "discountPercentage": 13.35,
+    "rating": 3.4,
+    "stock": 88,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/slotted-turner/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "turners"
+    ],
+    "numReviews": 21
+  },
+  {
+    "title": "Spice Rack",
+    "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 19.99,
+    "discountPercentage": 12.09,
+    "rating": 4.87,
+    "stock": 79,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spice-rack/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "numReviews": 74
+  },
+  {
+    "title": "Spoon",
+    "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 4.99,
+    "discountPercentage": 1.53,
+    "rating": 4.03,
+    "stock": 59,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/spoon/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "numReviews": 35
+  },
+  {
+    "title": "Tray",
+    "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 16.99,
+    "discountPercentage": 7.48,
+    "rating": 4.62,
+    "stock": 71,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/tray/thumbnail.webp",
+    "tags": [
+      "serveware",
+      "trays"
+    ],
+    "numReviews": 52
+  },
+  {
+    "title": "Wooden Rolling Pin",
+    "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 11.99,
+    "discountPercentage": 9.75,
+    "rating": 2.92,
+    "stock": 80,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/wooden-rolling-pin/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "baking"
+    ],
+    "numReviews": 36
+  },
+  {
+    "title": "Yellow Peeler",
+    "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+    "brand": "Generic",
+    "category": "kitchen-accessories",
+    "price": 5.99,
+    "discountPercentage": 12.48,
+    "rating": 4.24,
+    "stock": 35,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/1.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/kitchen-accessories/yellow-peeler/thumbnail.webp",
+    "tags": [
+      "kitchen tools",
+      "peelers"
+    ],
+    "numReviews": 42
+  },
+  {
+    "title": "Apple MacBook Pro 14 Inch Space Grey",
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "brand": "Apple",
+    "category": "laptops",
+    "price": 1999.99,
+    "discountPercentage": 4.69,
+    "rating": 3.65,
+    "stock": 24,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/thumbnail.webp",
+    "tags": [
+      "laptops",
+      "apple"
+    ],
+    "numReviews": 45
+  },
+  {
+    "title": "Asus Zenbook Pro Dual Screen Laptop",
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "brand": "Asus",
+    "category": "laptops",
+    "price": 1799.99,
+    "discountPercentage": 11.14,
+    "rating": 3.95,
+    "stock": 45,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/thumbnail.webp",
+    "tags": [
+      "laptops"
+    ],
+    "numReviews": 37
+  },
+  {
+    "title": "Huawei Matebook X Pro",
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "brand": "Huawei",
+    "category": "laptops",
+    "price": 1399.99,
+    "discountPercentage": 9.38,
+    "rating": 4.98,
+    "stock": 75,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/thumbnail.webp",
+    "tags": [
+      "laptops"
+    ],
+    "numReviews": 32
+  },
+  {
+    "title": "Lenovo Yoga 920",
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "brand": "Lenovo",
+    "category": "laptops",
+    "price": 1099.99,
+    "discountPercentage": 6.55,
+    "rating": 2.86,
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/thumbnail.webp",
+    "tags": [
+      "laptops"
+    ],
+    "numReviews": 63
+  },
+  {
+    "title": "New DELL XPS 13 9300 Laptop",
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "brand": "Dell",
+    "category": "laptops",
+    "price": 1499.99,
+    "discountPercentage": 11.89,
+    "rating": 2.67,
+    "stock": 74,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/1.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/2.webp",
+      "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/laptops/new-dell-xps-13-9300-laptop/thumbnail.webp",
+    "tags": [
+      "laptops"
+    ],
+    "numReviews": 37
+  },
+  {
+    "title": "Blue & Black Check Shirt",
+    "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+    "brand": "Fashion Trends",
+    "category": "mens-shirts",
+    "price": 29.99,
+    "discountPercentage": 15.35,
+    "rating": 3.64,
+    "stock": 38,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/thumbnail.webp",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "numReviews": 39
+  },
+  {
+    "title": "Gigabyte Aorus Men Tshirt",
+    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+    "brand": "Gigabyte",
+    "category": "mens-shirts",
+    "price": 24.99,
+    "discountPercentage": 0.94,
+    "rating": 3.18,
+    "stock": 90,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/thumbnail.webp",
+    "tags": [
+      "clothing",
+      "men's t-shirts"
+    ],
+    "numReviews": 19
+  },
+  {
+    "title": "Man Plaid Shirt",
+    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+    "brand": "Classic Wear",
+    "category": "mens-shirts",
+    "price": 34.99,
+    "discountPercentage": 19.5,
+    "rating": 3.46,
+    "stock": 82,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/thumbnail.webp",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "numReviews": 80
+  },
+  {
+    "title": "Man Short Sleeve Shirt",
+    "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+    "brand": "Casual Comfort",
+    "category": "mens-shirts",
+    "price": 19.99,
+    "discountPercentage": 6.83,
+    "rating": 2.9,
+    "stock": 2,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/thumbnail.webp",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "numReviews": 27
+  },
+  {
+    "title": "Men Check Shirt",
+    "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+    "brand": "Urban Chic",
+    "category": "mens-shirts",
+    "price": 27.99,
+    "discountPercentage": 11.38,
+    "rating": 2.72,
+    "stock": 95,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shirts/men-check-shirt/thumbnail.webp",
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "numReviews": 7
+  },
+  {
+    "title": "Nike Air Jordan 1 Red And Black",
+    "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+    "brand": "Nike",
+    "category": "mens-shoes",
+    "price": 149.99,
+    "discountPercentage": 4.12,
+    "rating": 4.77,
+    "stock": 7,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/thumbnail.webp",
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
+    "numReviews": 12
+  },
+  {
+    "title": "Nike Baseball Cleats",
+    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+    "brand": "Nike",
+    "category": "mens-shoes",
+    "price": 79.99,
+    "discountPercentage": 18.04,
+    "rating": 3.88,
+    "stock": 12,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/thumbnail.webp",
+    "tags": [
+      "footwear",
+      "sports cleats"
+    ],
+    "numReviews": 17
+  },
+  {
+    "title": "Puma Future Rider Trainers",
+    "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+    "brand": "Puma",
+    "category": "mens-shoes",
+    "price": 89.99,
+    "discountPercentage": 4.2,
+    "rating": 4.9,
+    "stock": 90,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/thumbnail.webp",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "numReviews": 64
+  },
+  {
+    "title": "Sports Sneakers Off White & Red",
+    "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
+    "brand": "Off White",
+    "category": "mens-shoes",
+    "price": 119.99,
+    "discountPercentage": 4.97,
+    "rating": 4.77,
+    "stock": 17,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/thumbnail.webp",
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
+    "numReviews": 47
+  },
+  {
+    "title": "Sports Sneakers Off White Red",
+    "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
+    "brand": "Off White",
+    "category": "mens-shoes",
+    "price": 109.99,
+    "discountPercentage": 0.04,
+    "rating": 4.69,
+    "stock": 62,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/3.webp",
+      "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/4.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-red/thumbnail.webp",
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "numReviews": 34
+  },
+  {
+    "title": "Brown Leather Belt Watch",
+    "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+    "brand": "Fashion Timepieces",
+    "category": "mens-watches",
+    "price": 89.99,
+    "discountPercentage": 5.99,
+    "rating": 4.19,
+    "stock": 32,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/brown-leather-belt-watch/thumbnail.webp",
+    "tags": [
+      "watches",
+      "leather watches"
+    ],
+    "numReviews": 49
+  },
+  {
+    "title": "Longines Master Collection",
+    "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+    "brand": "Longines",
+    "category": "mens-watches",
+    "price": 1499.99,
+    "discountPercentage": 17.24,
+    "rating": 3.87,
+    "stock": 100,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/longines-master-collection/thumbnail.webp",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "numReviews": 21
+  },
+  {
+    "title": "Rolex Cellini Date Black Dial",
+    "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "price": 8999.99,
+    "discountPercentage": 8.88,
+    "rating": 4.97,
+    "stock": 40,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-date-black-dial/thumbnail.webp",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "numReviews": 83
+  },
+  {
+    "title": "Rolex Cellini Moonphase",
+    "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "price": 12999.99,
+    "discountPercentage": 17.52,
+    "rating": 2.58,
+    "stock": 36,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/thumbnail.webp",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "numReviews": 46
+  },
+  {
+    "title": "Rolex Datejust",
+    "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "price": 10999.99,
+    "discountPercentage": 3.73,
+    "rating": 3.66,
+    "stock": 86,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-datejust/thumbnail.webp",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "numReviews": 31
+  },
+  {
+    "title": "Rolex Submariner Watch",
+    "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+    "brand": "Rolex",
+    "category": "mens-watches",
+    "price": 13999.99,
+    "discountPercentage": 5.05,
+    "rating": 2.69,
+    "stock": 55,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/1.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/2.webp",
+      "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mens-watches/rolex-submariner-watch/thumbnail.webp",
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "numReviews": 59
+  },
+  {
+    "title": "Amazon Echo Plus",
+    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "brand": "Amazon",
+    "category": "mobile-accessories",
+    "price": 99.99,
+    "discountPercentage": 12.07,
+    "rating": 4.99,
+    "stock": 61,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/2.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/thumbnail.webp",
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
+    "numReviews": 11
+  },
+  {
+    "title": "Apple Airpods",
+    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "brand": "Apple",
+    "category": "mobile-accessories",
+    "price": 129.99,
+    "discountPercentage": 15.54,
+    "rating": 4.15,
+    "stock": 67,
+    "images": [
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/2.webp",
+      "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/3.webp"
+    ],
+    "thumbnail": "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/thumbnail.webp",
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
+    "numReviews": 11
+  }
+]

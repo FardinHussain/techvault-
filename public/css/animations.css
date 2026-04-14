@@ -1,0 +1,155 @@
+/* ── GSAP-driven classes ─────────────────────────────────────── */
+/* Initial states set by JS — these are just helpers */
+
+.gsap-fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.gsap-fade-in {
+  opacity: 0;
+}
+.gsap-scale-in {
+  opacity: 0;
+  transform: scale(0.92);
+}
+
+/* Navbar shimmer on load */
+.navbar {
+  transform: translateY(-100%);
+}
+
+/* Hero elements */
+.hero-eyebrow,
+.hero-title,
+.hero-sub,
+.hero-ctas,
+.hero-stats {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+/* Product cards reveal */
+.product-card {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+/* Category cards */
+.category-card {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+/* Section headers */
+.section-tag,
+.section-title,
+.section-subtitle {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+/* Page header */
+.page-header h1,
+.page-header p {
+  opacity: 0;
+  transform: translateY(14px);
+}
+
+/* Stat cards */
+.stat-card {
+  opacity: 0;
+  transform: translateY(16px);
+}
+
+/* ── CSS-only micro-animations ──────────────────────────────── */
+@keyframes pulse-accent {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245,166,35,.4); }
+  50%       { box-shadow: 0 0 0 8px rgba(245,166,35,0); }
+}
+.btn-primary.pulse {
+  animation: pulse-accent 2s infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+.spinner {
+  display: inline-block;
+  width: 20px; height: 20px;
+  border: 2.5px solid var(--border-light);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin .7s linear infinite;
+}
+.spinner-lg {
+  width: 40px; height: 40px;
+  border-width: 3px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.fade-in { animation: fadeIn .3s ease; }
+
+/* Countdown flicker */
+@keyframes numFlip {
+  0%   { transform: scaleY(1); }
+  49%  { transform: scaleY(0); }
+  50%  { transform: scaleY(0); }
+  100% { transform: scaleY(1); }
+}
+.countdown-flip { animation: numFlip .4s ease; }
+
+/* Cart badge bump */
+@keyframes badgeBump {
+  0%   { transform: scale(1); }
+  40%  { transform: scale(1.5); }
+  100% { transform: scale(1); }
+}
+.badge-bump { animation: badgeBump .3s ease; }
+
+/* Star hover glow */
+.star-pick:hover ~ .star-pick,
+.star-pick:hover {
+  color: var(--accent);
+}
+
+/* Image gallery active thumb ring */
+.gallery-thumb.active {
+  box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--accent);
+}
+
+/* Smooth skeleton pulse */
+@keyframes skeleton-pulse {
+  0%   { opacity: 1; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+.skeleton-pulse { animation: skeleton-pulse 1.8s ease-in-out infinite; }
+
+/* Table row hover */
+.admin-table tr { transition: background var(--transition); }
+
+/* Sidebar active indicator */
+.admin-nav-link.active::before {
+  content: '';
+  position: absolute; left: 0; top: 4px; bottom: 4px;
+  width: 3px; border-radius: 0 2px 2px 0;
+  background: var(--accent);
+}
+.admin-nav-link { position: relative; }
+
+/* Filter sidebar active pill */
+.filter-category-btn.active {
+  position: relative;
+}
+.filter-category-btn.active::before {
+  content: '›';
+  position: absolute; right: 12px;
+  color: var(--accent);
+}
+
+/* Smooth image swap */
+.gallery-main img { transition: opacity .25s ease; }
+.gallery-main img.swapping { opacity: 0; }
