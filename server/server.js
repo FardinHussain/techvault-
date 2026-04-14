@@ -89,7 +89,7 @@ const autoSeed = async () => {
 };
 
 // ── START SERVER ──────────────────────────────────────────────
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = Number(process.env.PORT) || 8080;
 
 // Start server FIRST
 app.listen(PORT, '0.0.0.0', () => {
