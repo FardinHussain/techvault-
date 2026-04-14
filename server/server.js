@@ -21,9 +21,10 @@ app.get('/health', (req, res) => res.status(200).send('OK'));
 // ── 2. MIDDLEWARE & CORS ──────────────────────────────────────
 app.use(cors({
     origin: [
-        'https://techhvault.netlify.app', // Your Netlify production URL
-        'http://localhost:3000',          // Local development
-        'http://localhost:5173'           // Vite default port
+        'https://techhvault.netlify.app',
+        'http://localhost:8080',
+        'http://localhost:3000',
+        'http://localhost:5173',
     ],
     credentials: true
 }));
