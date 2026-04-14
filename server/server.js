@@ -1,56 +1,51 @@
 require('dotenv').config();
 const express = require('express');
-const path = require('path');
 const cors = require('cors');
 const { connectDB } = require('./config/db');
 
-// Initialize Express
 const app = express();
-
-// 1. SET PORT FIRST
-// Ensure Railway sees the app listening immediately
+// Use Railway's port OR default to 8080
 const PORT = process.env.PORT || 8080;
 
-// 2. Middleware
+// 1. LITERALLY THE FIRST THING: INSTANT HEALTH CHECK
+// Railway needs this to see the app is alive.
+app.get('/', (req, res) => {
+    res.status(200).send('HEALTHY');
+});
+
+app.get('/health', (req, res) => {
+    res.status(200).json({ status: 'up' });
+});
+
+// 2. Minimal Middleware
 app.use(cors());
 app.use(express.json());
 
-// 3. FAST Health Check for Railway (The "I am alive" signal)
-app.get('/health', (req, res) => res.status(200).send('OK'));
+// 3. API Routes (Wrapped in try/catch to prevent startup crashes)
+try {
+    app.use('/api/products', require('./routes/productRoutes'));
+    app.use('/api/users', require('./routes/userRoutes'));
+    app.use('/api/orders', require('./routes/orderRoutes'));
+    app.use('/api/reviews', require('./routes/reviewRoutes'));
+} catch (err) {
+    console.error("Route Loading Error:", err.message);
+}
 
-// 4. API Routes (Import these normally)
-app.use('/api/products', require('./routes/productRoutes'));
-app.use('/api/users', require('./routes/userRoutes'));
-app.use('/api/orders', require('./routes/orderRoutes'));
-app.use('/api/reviews', require('./routes/reviewRoutes'));
-
-// 5. Root Route Fix 
-// (Don't use sendFile yet—it might be crashing if the path is wrong)
-app.get('/', (req, res) => {
-    res.json({ message: "Techvault API is running", database: "Connecting..." });
-});
-
-// 6. START SERVER IMMEDIATELY
+// 4. BIND IMMEDIATELY
 const server = app.listen(PORT, '0.0.0.0', () => {
-    console.log(`🚀 CRITICAL: Server is listening on port ${PORT}`);
+    console.log(`🚀 BIND SUCCESS: Listening on port ${PORT}`);
     
-    // NOW connect to the DB after the server is safely up
-    connectDB().then(async () => {
-        console.log("🗄️ Database logic started...");
-        try {
-            const Product = require('./models/Product');
-            const count = await Product.countDocuments();
-            console.log(`📦 ${count} products exist`);
-        } catch (e) {
-            console.log("Seed check skipped:", e.message);
-        }
-    }).catch(err => {
-        console.error("❌ DB failed but server stays alive:", err.message);
-    });
+    // Connect to DB only AFTER the server is verified alive
+    connectDB()
+        .then(() => console.log("✅ DB Connected in background"))
+        .catch(err => console.error("❌ DB Background Fail:", err.message));
 });
 
-// Handle SIGTERM gracefully
-process.on('SIGTERM', () => {
-    console.log('SIGTERM received. Cleaning up...');
-    server.close(() => process.exit(0));
+// 5. Anti-Crash Protection
+process.on('uncaughtException', (err) => {
+    console.error('CRITICAL ERROR (Process stays alive):', err);
+});
+
+process.on('unhandledRejection', (reason, promise) => {
+    console.error('Unhandled Rejection at:', promise, 'reason:', reason);
 });
