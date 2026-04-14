@@ -102,14 +102,10 @@ const autoSeed = async () => {
 };
 
 // ── START SERVER (FINAL FIX) ──────────────────────────────────
-const PORT = process.env.PORT;
+const PORT = Number(process.env.PORT) || 3000;
 
 console.log("ENV PORT VALUE:", process.env.PORT);
-
-if (!PORT) {
-  console.error("❌ PORT is undefined");
-  process.exit(1);
-}
+console.log("FINAL PORT USED:", PORT);
 
 (async () => {
   try {
