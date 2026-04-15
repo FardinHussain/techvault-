@@ -1,6 +1,8 @@
 /* ── API base URL ────────────────────────────────────────────── */
+// We are pointing this to your new Render backend
 const API_URL =
   window.location.hostname === 'localhost' ||
   window.location.hostname === '127.0.0.1'
     ? 'http://127.0.0.1:8080/api'
-    : 'https://your-backend.railway.app/api';
+    : 'https://techvault-acl4.onrender.com/api';
+    
