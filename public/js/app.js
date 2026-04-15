@@ -1,3 +1,9 @@
+/* ── Configuration ───────────────────────────────────────────── */
+// This ensures the frontend talks to your Render backend when live
+const API_URL = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+  ? 'http://localhost:8080' 
+  : 'https://techvault-acl4.onrender.com';
+
 /* ── Auth helpers ────────────────────────────────────────────── */
 const getToken = () => localStorage.getItem('tvToken');
 const getUser  = () => {
@@ -22,6 +28,8 @@ const apiFetch = async (path, options = {}) => {
   const token = getToken();
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) };
   if (token) headers['Authorization'] = `Bearer ${token}`;
+  
+  // Now using the defined API_URL
   const res = await fetch(`${API_URL}${path}`, { ...options, headers });
   const data = await res.json().catch(() => ({}));
   if (!res.ok) throw new Error(data.message || `Request failed (${res.status})`);
@@ -108,8 +116,6 @@ const buildProductCard = (p) => {
   const id       = p._id;
   const dp       = discountedPrice(p.price, p.discountPercentage);
   const hasDis   = (p.discountPercentage || 0) >= 1;
-  const stockCls = p.stock === 0 ? 'badge-gray' : p.stock < 10 ? 'badge-orange' : 'badge-green';
-  const stockTxt = p.stock === 0 ? 'Out of Stock' : p.stock < 10 ? `Only ${p.stock} left` : 'In Stock';
 
   const card = document.createElement('div');
   card.className = 'product-card';
@@ -171,7 +177,6 @@ const hydrateNavbar = () => {
   Cart.updateBadge();
   const user = getUser();
 
-  // Swap Login link to user name / logout if logged in
   const loginLink = document.getElementById('nav-login-link');
   const userMenu  = document.getElementById('nav-user-menu');
   const userNameEl= document.getElementById('nav-user-name');
@@ -188,7 +193,6 @@ const hydrateNavbar = () => {
     setTimeout(() => location.href = 'index.html', 800);
   });
 
-  // Hamburger
   const ham   = document.getElementById('hamburger');
   const mMenu = document.getElementById('mobile-menu');
   ham?.addEventListener('click', () => {
