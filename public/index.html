@@ -231,16 +231,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     sunglasses: '🕶️', automotive: '🚗', motorcycle: '🏍️',
     lighting: '💡', default: '📦',
   };
-
   // ── Load categories ───────────────────────────────────────────
   const catGrid = document.getElementById('categories-grid');
   try {
-    const cats = await apiFetch('/products/categories');
-    const shown = cats.slice(0, 6);
-    shown.forEach(cat => {
+    const data = await apiFetch('/products/categories');
+    // Render might return { status: 'success', categories: [...] } or just [...]
+    const cats = Array.isArray(data) ? data : data.categories || [];
+    
+    if (cats.length === 0) throw new Error("No categories");
+
+    catGrid.innerHTML = ''; // Clear "something is there" placeholders
+    cats.slice(0, 6).forEach(cat => {
       const icon = catIcons[cat] || catIcons.default;
       const el = document.createElement('div');
       el.className = 'category-card';
+      el.style.opacity = "1"; // Force visibility
+      el.style.visibility = "visible";
       el.innerHTML = `
         <div class="category-icon">${icon}</div>
         <div class="category-name">${cat.replace(/-/g,' ')}</div>
@@ -248,10 +254,11 @@ document.addEventListener('DOMContentLoaded', async () => {
       el.addEventListener('click', () => location.href = `shop.html?category=${encodeURIComponent(cat)}`);
       catGrid.appendChild(el);
     });
-  } catch {
-    catGrid.innerHTML = '<p style="color:var(--text-muted)">Could not load categories.</p>';
+  } catch (err) {
+    console.error("Category Error:", err);
+    catGrid.innerHTML = '<p style="color:white">Could not load categories.</p>';
   }
-
+  
   // ── Load featured products ────────────────────────────────────
   const featGrid = document.getElementById('featured-grid');
   featGrid.appendChild(buildSkeletons(8));

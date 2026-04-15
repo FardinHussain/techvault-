@@ -203,6 +203,54 @@ textarea.form-input { resize: vertical; min-height: 100px; }
 .product-card-price .current  { font-size: 18px; font-weight: 700; }
 .product-card-price .original { font-size: 13px; color: var(--text-muted); text-decoration: line-through; }
 .product-card-footer { padding: 0 14px 14px; }
+/* ── Category Card ─────────────────────────────────────────── */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.category-card {
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: var(--radius);
+  padding: 30px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.category-card:hover {
+  border-color: var(--accent);
+  background: var(--surface2);
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+}
+
+.category-icon {
+  font-size: 42px;
+  margin-bottom: 5px;
+  filter: drop-shadow(0 0 10px rgba(245, 166, 35, 0.2));
+}
+
+.category-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text); /* Forces text to be white */
+  text-transform: capitalize;
+}
+
+.category-count {
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
 
 /* ── Skeleton loaders ────────────────────────────────────────  */
 .skeleton {
