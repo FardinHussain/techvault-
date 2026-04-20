@@ -1,24 +1,30 @@
 const express = require('express');
 const router = express.Router();
-// 1. Add getAllOrders to your imports
-const { 
-  createOrder, 
-  getMyOrders, 
+
+const {
+  createOrder,
+  getMyOrders,
   getOrderById,
-  getAllOrders // <--- Add this
+  getAllOrders,
+  updateOrderStatus,
+  getStats,
 } = require('../controllers/orderController');
 
-// 2. Add 'admin' to your middleware imports
 const { protect, admin } = require('../middleware/authMiddleware');
 
-// ── ROUTES ──
+// ── IMPORTANT: Static/specific routes MUST come before /:id ──
+// If /:id is first, it swallows /stats and /myorders
 
-// This handles GET /api/orders (For Admins) and POST /api/orders (For Users)
-router.route('/')
-  .post(protect, createOrder)
-  .get(protect, admin, getAllOrders); // <--- THIS WAS MISSING
-
+// User routes
+router.post('/', protect, createOrder);
 router.get('/myorders', protect, getMyOrders);
+
+// Admin routes — defined BEFORE /:id so they aren't swallowed
+router.get('/stats', protect, admin, getStats);
+router.get('/all', protect, admin, getAllOrders);
+router.put('/:id/status', protect, admin, updateOrderStatus);
+
+// Dynamic route LAST — catches /:id only after all statics above
 router.get('/:id', protect, getOrderById);
 
 module.exports = router;
